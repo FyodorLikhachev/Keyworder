@@ -63,6 +63,10 @@ You would like to modify this constants for you
 ### Visualize metrics
 To visualize model loss and accuracy uncomment lines in [`train.py`](https://github.com/FyodorLikhachev/Keyworder/blob/main/Train.py) and use jupyter notebooks
 
+![image](https://user-images.githubusercontent.com/47794606/115159069-0ab56580-a09a-11eb-8b4f-c3233dcd7b34.png)
+
+### Check this code on our [colab](https://colab.research.google.com/drive/13h5zaijJcGEJNhgpPt3CcGkZ0exqJ0T4?usp=sharing)
+
 # Raspberry Pi
 Coming soon - 19.04.2021
 
