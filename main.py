@@ -90,6 +90,7 @@ def listen(stopped, list):
         chunk = np.frombuffer(stream.read(constants.CHUNK_SIZE), np.float32)
         list.append(chunk)
 
+
 if __name__ == '__main__':
     main()
     #model = train() # train for train =)

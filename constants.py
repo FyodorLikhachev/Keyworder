@@ -13,7 +13,7 @@ OUT_SIZE = 2
 # live
 CHUNK_SIZE = 1024
 MAX_QUEUE_LENGTH = 10
-MODEL_FILE = "/Users/user/Downloads/model.0.93.97.pt"  # TODO: move to args
+MODEL_FILE = "./model.0.93.97.pt"  # TODO: move to args
 SENSITIVITY = 20  # TODO: move to args
 INPUT_DEVICE_INDEX = 3 # TODO: move to args
 DEVICE = 'cpu'
