@@ -7,7 +7,6 @@ from beepy import beep
 import constants
 from grumodel import GRUModel # for torch.load to work
 from functions import transform
-from train import train # for train
 
 list = list() # shared list between 2 threads
 
@@ -97,4 +96,3 @@ def listen(stopped, list):
 
 if __name__ == '__main__':
     main()
-    #model = train() # train for train =)

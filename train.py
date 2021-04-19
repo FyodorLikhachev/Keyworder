@@ -45,3 +45,9 @@ def train():
 
     metrics.showMetrics(model, test_data, f"\nEpoch: {epoch} Test")
     metrics.showMetrics(model, dataset.neg_rand_dataset + dataset.pos_clean_dataset, f'Epoch {epoch} Clear')
+
+    torch.save(model, constants.TRAINED_MODEL_NAME)
+
+
+if __name__ == '__main__':
+    train()

@@ -23,6 +23,7 @@ EPOCH = 10
 LR = 0.001
 TRAIN_DATA_PERCENTAGE = 0.9 # 90%
 TRAIN_KEYWORD_MARKER = 30 # check last n elements
+TRAINED_MODEL_NAME = "trained model" # TODO: move to args
 
 # data
 NEG_CLEAN_ROOT = './input/neg_clean'
