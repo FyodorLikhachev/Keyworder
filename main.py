@@ -3,10 +3,11 @@ import time
 import threading
 import torch
 import numpy as np
+from beepy import beep
 import constants
-from grumodel import GRUModel
+from grumodel import GRUModel # for torch.load to work
 from functions import transform
-from train import train
+from train import train # for train
 
 list = list() # shared list between 2 threads
 
@@ -40,6 +41,7 @@ class Keyworder:
             pred = self.get_pred(mel)
             if pred == 1:
                 self.success_num = self.success_num + 1
+                beep(sound="coin")
                 print(f"Success #{self.success_num}")
                 time.sleep(0.1)  # after keyword detection skip 100 ms
 
@@ -54,6 +56,8 @@ class Keyworder:
 
                 if detect_in_row >= constants.SENSITIVITY:
                     return 1
+            else:
+                detect_in_row = 0
 
         return 0
 

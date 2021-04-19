@@ -12,10 +12,10 @@ OUT_SIZE = 2
 
 # live
 CHUNK_SIZE = 1024
-MAX_QUEUE_LENGTH = 10
+MAX_QUEUE_LENGTH = 8
 MODEL_FILE = "./model.0.93.97.pt"  # TODO: move to args
-SENSITIVITY = 20  # TODO: move to args
-INPUT_DEVICE_INDEX = 3 # TODO: move to args
+SENSITIVITY = 13  # TODO: move to args
+INPUT_DEVICE_INDEX = 0 # TODO: move to args
 DEVICE = 'cpu'
 
 # train
