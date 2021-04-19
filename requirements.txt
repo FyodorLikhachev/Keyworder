@@ -1,0 +1,6 @@
+torch==1.8.1
+numpy==1.19.2
+torchaudio==0.8.0a0+e4e171a
+beepy==1.0.7
+pyaudio==0.2.11
+scikit_learn==0.24.1
